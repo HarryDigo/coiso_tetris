@@ -1,2 +1,17 @@
-klasdklaskljd
-kjbasdjkasjbkd
+Precisamos de ao menos 10 páginas.
+
+TEÓRICAMENTE:
+Cada um ficaria sujeito a configurar 2.5 páginas, mais o jogo que todos contribuirão.
+
+NA PRÁTICA:
+Como é impossível fazer 0.5 de uma página a dvisã fica a seguinte:
+
+--PEDRO-- 3 páginas
+
+--VIANA-- 3 páginas
+
+--COAN-- 2 páginas
+
+--RODRIGÃO-- !TUDO! páginas (2)
+
+Os integrantes responsáveis por uma menor quantidade de páginas terão seus esforços voltados à parte back-end do projeto
