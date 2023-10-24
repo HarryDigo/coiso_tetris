@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@font-face {
+    font-family: "ProLamina";
+    src: url(/fontes/prolamina/CT\ ProLamina.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Coolvetica";
+    src: url(/fontes/coolvetica/coolvetica\ rg.otf) format("opentype");
+}
+h1 {
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-size: 216px;
+    font-weight: 400;
+}
+p {
+    font-family: Coolvetica, sans-serif;
+    color: white;
+    font-size:96px;
+}
+body {
+    font-weight: normal;
+    background-color: #242424;
+}
