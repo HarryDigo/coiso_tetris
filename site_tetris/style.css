@@ -1,19 +1,19 @@
 @font-face {
-    font-family: "ProLamina";
+    font-family: ProLamina;
     src: url(/fontes/prolamina/CT\ ProLamina.ttf) format("truetype");
 }
 @font-face {
-    font-family: "Coolvetica";
+    font-family: Coolvetica;
     src: url(/fontes/coolvetica/coolvetica\ rg.otf) format("opentype");
 }
 h1 {
-    font-family: ProLamina, sans-serif;
+    font-family: ProLamina;
     color: white;
     font-size: 216px;
     font-weight: 400;
 }
 p {
-    font-family: Coolvetica, sans-serif;
+    font-family: Coolvetica;
     color: white;
     font-size:96px;
 }
