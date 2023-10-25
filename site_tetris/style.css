@@ -7,13 +7,13 @@
     src: url(/fontes/coolvetica/coolvetica\ rg.otf) format("opentype");
 }
 h1 {
-    font-family: ProLamina;
+    font-family: "ProLamina";
     color: white;
     font-size: 216px;
     font-weight: 400;
 }
 p {
-    font-family: Coolvetica;
+    font-family: "Coolvetica";
     color: white;
     font-size:96px;
 }
