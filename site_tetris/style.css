@@ -1,10 +1,10 @@
 @font-face {
     font-family: "ProLamina";
-    src: url(/site_tetris/fontes/prolamina/CT\ ProLamina.ttf) format("truetype");
+    src: url(/site_tetris/fontes/prolamina/CT\ ProLamina.ttf) format('truetype');
 }
 @font-face {
     font-family: "Coolvetica";
-    src: url(/site_tetris/fontes/coolvetica/coolvetica\ rg.otf) format("opentype");
+    src: url(/site_tetris/fontes/coolvetica/coolvetica\ rg.otf) format('opentype');
 }
 h1 {
     font-family: "ProLamina", sans-serif;
