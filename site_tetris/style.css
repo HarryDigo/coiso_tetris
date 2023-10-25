@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: "Coolvetica";
-    src: url(/fontes/coolvetica/coolvetica\ rg.otf);
+    src: url(/fontes/coolvetica/coolvetica\ rg.otf) format("opentype");
 }
 h1 {
     font-family: ProLamina, sans-serif;
