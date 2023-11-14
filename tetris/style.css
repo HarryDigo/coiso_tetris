@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.espaco {
+    display: flex;
+    background-color: #000;
+}
+
+.container {
+    border-radius: 20px;
+    background: #132537;
+    position: relative;
+}
+
+.sombra {
+    z-index: -1;
+    height:inherit;
+    width: calc(100% + 8px);
+    position: absolute;
+    background: #112030;
+    top: 9px;
+}
+
+body {
+    background-color: #1C3956;
+    color: #ffffff;
+    font-family: Monomaniac One;
+}
