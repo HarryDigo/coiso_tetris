@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+.espaco {
+    display: flex;
+    /*background-color: #000;*/
+}
+
+.espaco.direita {justify-content: right;}
+
+.container {
+    border-radius: 20px;
+    background: #132537;
+    position: relative;
+    display: flex;
+}
+
+.sombra {
+    z-index: -1;
+    height:inherit;
+    width: calc(100% + 8px);
+    position: absolute;
+    background: #112030;
+    border-radius: inherit;
+    top: 9px;
+}
+
+.sombra.direita {width: 100%}
+
+.botao {
+    cursor: pointer;
+    transition:0.5s;
+}
+
+.voltar {
+    height: 109px;
+    width: 197px;
+}
+
+.voltar p {
+    font-size: 64px;
+    margin-top:8px;
+    margin-right:22px
+}
+
+.botao.direita {
+    justify-content: right;
+    border-radius: 20px 0 0 20px;
+}
+
+.botao span {transition:0.5s;}
+
+.botao:hover {background-color: #182a3c;}
+
+.botao:active {background-color: #233547;}
+
+.botao.direita:hover {padding-right: 100px;}
+
+.botao.direita:hover span {margin-right:-100px;}
+
+.imagem {
+    border-radius: 10px;
+    border: 15px solid #132537;
+}
+
+body {
+    background-color: #1C3956;
+    color: #ffffff;
+    font-family: Monomaniac One;
+}
+
+p {cursor:inherit}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}

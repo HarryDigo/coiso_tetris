@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Início</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+
+            .container.inicio {
+                height: 150px;
+                border-radius: 0 20px 20px 0;
+            }
+
+            .container.direita {border-radius: 20px 0 0 20px;}
+
+            .container.pequeno {height: 109px;}
+
+            .espaco {justify-content: left;}
+
+            p.titulo {font-size: 96px}
+
+            p.txtbotao {font-size: 92px}
+
+            p.pequeno {
+                font-size: 64px;
+                margin-top:8px
+            }
+
+            .botao:hover {padding-left:100px;}
+                
+            .botao:hover span {margin-left:-100px;}
+
+            .botao.direita:hover {padding-left: 0;}
+
+            .icone {
+                margin-left:40px;
+                margin-top: 25px;
+                height: 70px;
+                transition: 0.5s;
+            }
+
+            .icone:hover {
+                scale: 0.9;
+            }
+
+            
+        </style>
+    </head>
+    <body style="background-image: url('fundo.png');height:1392px">
+        <div class="espaco direita" style="margin-top: 51px;">
+            <div class="container inicio direita" style="width: 1129px;">
+                <span class="sombra inicio direita"></span>
+                <p class="titulo" style="margin-left:87px;margin-top:-12px;">Tetris<br>
+                    <span style="font-size:20px;position:absolute;bottom:20px;">BY: Rodrigo, Pedro, Coan, Viana</span>
+                </p>
+            </div>
+        </div>
+        <div class="espaco" style="margin-top: 98px">
+            <a href="jogo/jogo.html"><div class="container inicio botao" style="width: 1368px;">
+                <span class="sombra inicio"></span>
+                <p class="txtbotao" style="margin-left:738px">Jogar</p>
+            </div></a>
+        </div>
+        <div class="espaco" style="margin-top: 27px">
+            <a href="tutorial/tuto.html"><div class="container inicio botao" style="width: 1245px;">
+                <span class="sombra inicio"></span>
+                <p class="txtbotao" style="margin-left:512px">Tutorial</p>
+            </div></a>
+        </div>
+        <div class="espaco" style="margin-top: 27px">
+            <a href="historia/hist.html"><div class="container inicio botao" style="width: 1122px;">
+                <span class="sombra inicio"></span>
+                <p class="txtbotao" style="margin-left:413px">História</p>
+            </div></a>
+        </div>
+        <div class="espaco" style="margin-top: 48px">
+            <div class="container pequeno inicio" style="width: 770px;">
+                <span class="sombra inicio"></span>
+                <p class="pequeno" style="margin-left:42px">Nossas redes:</p>
+                <a href="https://www.youtube.com/channel/UCbwvkJpxkvVC3SZcxrYrTgA"><img src="youtube.png" class="icone"></a>
+                <a href="https://instagram.com/bentotetris?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><img src="instagram.png" class="icone"></a>
+                <a href="https://github.com/HarryDigo/coiso_tetris" target="_blank"><img src="github.png" class="icone"></a>
+            </div>
+        </div>
+        <div class="espaco direita" style="margin-top:-109px">
+            <a href="creditos/cred.html"><div class="container pequeno inicio direita botao" style="width: 315px;">
+                <span class="sombra inicio direita"></span>
+                <p class="pequeno" style="margin-right: 22px;">Sobre nós</p>
+            </div></a>
+        </div>
+    </body>
+</html>
